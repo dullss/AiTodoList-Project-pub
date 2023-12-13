@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <title>Home</title>
+  </head>
+
+  <body class="bg-[#E0E0E0]">
+    <nav
+      class="bg-white h-[64px] drop-shadow-md fixed w-full top-0 md:flex md:justify-around md:items-center"
+    >
+      <div
+        class="flex items-center justify-between pl-[10px] pr-[10px] pt-3 md:pt-0"
+      >
+        <div>
+          <div class="bg-black w-[39px] h-[39px] rounded-full"></div>
+        </div>
+
+        <a
+          href="#"
+          class="md:hidden"
+          data-collapse-toggle="navbar-default"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <div
+            class="bg-[#555555] w-[30px] h-[4px] rounded-[9px]"
+            aria-hidden="true"
+          ></div>
+          <div
+            class="bg-[#555555] w-[30px] h-[4px] rounded-[9px] mt-[1.5px]"
+            aria-hidden="true"
+          ></div>
+          <div
+            class="bg-[#555555] w-[30px] h-[4px] rounded-[9px] mt-[1.5px]"
+            aria-hidden="true"
+          ></div>
+        </a>
+      </div>
+
+      <div class="hidden md:block w-full md:w-auto" id="navbar-default">
+        <ul
+          class="flex flex-col md:flex-row mt-[0.8rem] md:mt-0 p-4 md:p-0 md:mr-8 bg-[#ffffff] gap-y-2 md:gap-x-7 text-center"
+        >
+          <li>
+            <a
+              href="./index.html"
+              class="block py-2 pl-3 pr-4 font-medium text-xl text-[#555555] hover:text-[#7a7a7a]"
+              aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="./AboutUs.html"
+              class="block py-2 pl-3 pr-4 font-medium text-xl text-[#555555] hover:text-[#7a7a7a]"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a
+              href="./ContactUs.html"
+              class="block py-2 pl-3 pr-4 font-medium text-xl text-[#555555] hover:text-[#7a7a7a]"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section class="h-screen flex items-center justify-center text-center">
+        <div class="mb-28">
+          <div>
+            <h1 class="text-[#555555] text-4xl font-bold font-[Inter]">
+              Stay Orgnaised, productive, and in control of your day
+            </h1>
+          </div>
+          <div class="mt-4">
+            <button
+              class="font-bold border-[2.5px] border-[#555555] text-[#555555] rounded-[9px] pt-2 pb-2 pl-6 pr-6"
+              data-collapse-toggle="navbar-default"
+              aria-controls="navbar-default"
+              aria-expanded="false"
+            >
+              More
+            </button>
+            <a
+              href="./todo.html"
+              class="font-bold bg-[#555555] text-gray-200 rounded-[9px] pt-[12px] pb-[12px] pl-6 pr-6"
+            >
+              Create Task
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="z-[-1]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-pencil z-[-1] animate-blob animation-delay-2000 filter blur-sm absolute top-[30%] left-[10%] text-[#848484] w-10"
+        >
+          <path
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13.5 7.5l3 3M4 20v-3.5L15.293 5.207a1 1 0 011.414 0l2.086 2.086a1 1 0 010 1.414L7.5 20H4z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-pencil z-[-1] animate-blob filter blur-sm absolute bottom-40 left-[20%] text-[#848484] w-10"
+        >
+          <path
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13.5 7.5l3 3M4 20v-3.5L15.293 5.207a1 1 0 011.414 0l2.086 2.086a1 1 0 010 1.414L7.5 20H4z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-calendar z-[-1] animate-blob1 filter blur-sm absolute top-36 right-[56%] text-[#848484] w-10"
+        >
+          <g
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linejoin="round"
+              d="M4 6a1 1 0 011-1h14a1 1 0 011 1v4H4V6z"
+            />
+            <path stroke-linecap="round" d="M8 6.5v-3M16 6.5v-3" />
+            <path
+              stroke-linejoin="round"
+              d="M4 10h16v9a1 1 0 01-1 1H5a1 1 0 01-1-1v-9z"
+            />
+          </g>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-bookmark z-[-1] animate-blob2 filter blur-sm absolute bottom-40 right-[15%] text-[#848484] w-10"
+        >
+          <path
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 20V5a1 1 0 011-1h10a1 1 0 011 1v15l-6-3-6 3z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-italic z-[-1] animate-blob2 filter blur-sm absolute top-52 right-[20%] text-[#848484] w-10"
+        >
+          <path
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 20l4-16m2 0h-4m0 16H8"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-text z-[-1] animate-blob1 filter blur-sm absolute bottom-10 right-[40%] text-[#848484] w-10"
+        >
+          <path
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 20V4m7 2V4H5v2m9 14h-4"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-text z-[-1] animate-blob1 filter blur-sm absolute bottom-60 right-[50%] text-[#848484] w-10"
+        >
+          <path
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9 4H6a1 1 0 00-1 1v15a1 1 0 001 1h12a1 1 0 001-1V5a1 1 0 00-1-1h-3M9 3h6v4H9V3z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-text z-[-1] animate-blob2 filter blur-sm absolute top-72 right-[50%] text-[#848484] w-10"
+        >
+          <path
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9 4H6a1 1 0 00-1 1v15a1 1 0 001 1h12a1 1 0 001-1V5a1 1 0 00-1-1h-3M9 3h6v4H9V3z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-italic z-[-1] animate-blob2 filter blur-sm absolute top-[30rem] left-[20%] text-[#848484] w-10"
+        >
+          <path
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 20l4-16m2 0h-4m0 16H8"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          class="humbleicons hi-text z-[-1] animate-blob1 filter blur-sm absolute top-[30rem] right-[20%] text-[#848484] w-10"
+        >
+          <path
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 20V4m7 2V4H5v2m9 14h-4"
+          />
+        </svg>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+  </body>
+</html>
